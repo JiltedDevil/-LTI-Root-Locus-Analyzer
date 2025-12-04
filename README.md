@@ -37,24 +37,26 @@ $$
 透過勾選 checkbox 來顯示限制區域，檢查閉迴路極點是否滿足需求。
 
 * **Transient Response (阻尼比 $\zeta$)**
-    * 定義系統的超越量 (Percentage Overshoot, %OS)。
-    * 合格區域：$\zeta \geq \zeta_{min}$ (綠色圓錐狀區域)。
-    * 公式關係：
-    $$
-    \%OS = e^{-\frac{\zeta\pi}{\sqrt{1-\zeta^2}}} \times 100\%
-    $$
-
+  * 定義系統的超越量 (Percentage Overshoot, %OS)。
+  * 合格區域： $\zeta \geq \zeta_{min}$ (綠色圓錐狀區域)。
+  * 公式關係：
+     
+$$
+\%OS = e ^{-\frac{\zeta\pi}{\sqrt{1-\zeta^2}}} \times 100\%
+$$
+ 
 * **Max Settling Time ($T_s$)**
-    * 定義系統的安定時間 (Settling Time)。
-    * 合格區域：實部 $\sigma \leq -4/T_s$ (垂直虛線左側)。
-    * 公式關係 (2% 準則)：
-    $$
-    T_s \approx \frac{4}{\zeta\omega_n}
-    $$
+  * 定義系統的安定時間 (Settling Time)。
+  * 合格區域：實部 $\sigma \leq -4/T_s$ (垂直虛線左側)。
+  * 公式關係 (2% 準則)：
+
+$$
+T_s \approx \frac{4}{\zeta\omega_n}
+$$
 
 * **Min Natural Freq ($\omega_n$)**
-    * 定義系統的自然頻率，影響響應速度。
-    * 合格區域：原點外的半圓區域。
+  * 定義系統的自然頻率，影響響應速度。
+  * 合格區域：原點外的半圓區域。
 
 ### 3. 調整增益 (Gain Tuning)
 * **滑桿調整**：拖曳滑桿可即時觀察閉迴路極點 (Closed-Loop Poles) 在軌跡上的移動。

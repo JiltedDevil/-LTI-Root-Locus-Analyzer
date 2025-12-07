@@ -1,6 +1,3 @@
-# -LTI-Root-Locus-Analyzer
-A web-based Root Locus plotting tool for control systems.**(By AI Studio)**
-
 # LTI Root Locus Designer (根軌跡設計工具)
 
 這是一個基於網頁的線性非時變 (LTI) 控制系統分析工具。它允許使用者輸入開迴路轉移函數，繪製根軌跡圖 (Root Locus)，並根據暫態響應規格（如超越量、安定時間）即時設計控制器增益 $K$。

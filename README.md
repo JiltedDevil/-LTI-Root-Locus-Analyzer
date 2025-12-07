@@ -37,9 +37,8 @@ $$
   * 定義系統的超越量 (Percentage Overshoot, %OS)。
   * 合格區域： $\zeta \geq \zeta_{min}$ (綠色圓錐狀區域)。
   * 公式關係：
-     
 $$
-\%OS = e ^{-\frac{\zeta\pi}{\sqrt{1-\zeta^2}}} \times 100\%
+\text{\%OS} = e^{-\frac{\zeta\pi}{\sqrt{1-\zeta^2}}} \times 100\%
 $$
  
 * **Max Settling Time ($T_s$)**
